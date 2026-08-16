@@ -1,5 +1,6 @@
 ---
-title: 从一篇文章开始
+title: Building a Production-Ready 4×4 km AAA-Scale Terrain Pipeline in Unreal Engine 5
+​Procedural Hillside Generation, Houdini & Gaea Tooling, PCG Integration, and Runtime Optimization​
 date: 2026-08-16
 tags: [随笔, 写作]
 summary: 这不是一份宏大的计划，只是决定把正在发生的思考写下来。
