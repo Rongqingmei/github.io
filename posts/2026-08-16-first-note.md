@@ -1,20 +1,15 @@
 ---
 title: Building a Production-Ready 4×4 km AAA-Scale Terrain Pipeline in Unreal Engine 5 Procedural Hillside Generation, Houdini & Gaea Tooling, PCG Integration, and Runtime Optimization​
 date: 2026-08-16
-tags: [随笔, 写作]
+tags: [TA, PCG]
 summary: 这不是一份宏大的计划，只是决定把正在发生的思考写下来。
 ---
 
-# 从一篇文章开始
+# About This Article
 
-这个网站终于有了第一篇真正的文章。
+To build a Preoduction-Ready 3A Terrain Pipeline.
+“What I cannot create, I do not understand.” — Richard Feynman
 
-我希望它不只是一个展示页面，而是一个可以慢慢积累的地方：记录值得推敲的问题、未完成的想法，以及那些还没有答案的时刻。
+# Part Building a Minimal Gaea Terrain in UE5 
 
-## 为什么要公开写作
 
-写下来，会迫使我把模糊的感受变成可讨论的句子。公开并不意味着要把一切都说得确定；它只是为思考留下一条可回看的路径。
-
-所以，从这篇开始。
-
-> 持续写作，缓慢生长。
