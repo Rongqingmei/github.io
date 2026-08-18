@@ -7,9 +7,11 @@
   },
   "scripts": {
     "dev": "vinext dev",
+    "posts:build": "node scripts/build-posts.mjs",
+    "new-post": "node scripts/new-post.mjs",
     "build": "vinext build",
     "start": "vinext start",
-    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test": "npm run posts:build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },

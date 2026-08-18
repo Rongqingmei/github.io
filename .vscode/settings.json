@@ -1,0 +1,11 @@
+{
+  "files.encoding": "utf8",
+  "markdown.copyFiles.destination": {
+    "/posts/*.md": "assets/${documentBaseName}/"
+  },
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
+  "markdown.editor.drop.copyIntoWorkspace": "mediaFiles",
+  "markdown.editor.filePaste.copyIntoWorkspace": "mediaFiles",
+  "markdown.validate.enabled": true,
+  "editor.wordWrap": "on"
+}

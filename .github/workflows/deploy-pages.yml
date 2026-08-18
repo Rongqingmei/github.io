@@ -22,8 +22,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Build article index
-        run: node scripts/build-posts.mjs
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build and verify articles
+        run: npm test
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
